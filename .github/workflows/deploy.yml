@@ -33,7 +33,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       
       - name: Test unit
         run: npm test:unit
